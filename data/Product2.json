@@ -1,0 +1,56 @@
+{
+  "id": "456",
+  "sku": "",
+  "store_id": "1234",
+  "user_id": "ADFR345",
+  "additional_info": [],
+  "created_at": "2017-08-10T05:46:08.565384Z",
+  "updated_at": "2017-08-10T05:46:08.565505Z",
+  "name": "Cup Board",
+  "description": "No description",
+  "status": "pending",
+  "featured": false,
+  "variance": [
+    {
+      "id": {
+        "ref": "material",
+        "code": 1,
+        "display": "Wood"
+      },
+      "price": {
+        "current": {
+          "price": 500000,
+          "date": "16557498"
+        }
+      },
+      "weight": 100000,
+      "stock": 15,
+      "images": [
+        {
+          "image": "https://backenddev.shophobe.com/media/product_images/Urban_Republic_Satin_Jacket.jpg",
+          "order": null,
+          "alt_tag": "urban_republic_satin_jacket.jpg_0"
+        }
+      ]
+    }
+  ],
+  "category": [
+    {
+      "id": {
+        "code": 1,
+        "display": "Home"
+      },
+      "child": {
+        "id": {
+          "code": 2,
+          "display": "Home Furnishing"
+        },
+        "grand": {
+          "id": 3,
+          "display": "Furniture"
+        }
+      }
+    }
+  ],
+  "transportation_require": false
+}
