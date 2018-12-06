@@ -1,12 +1,12 @@
 {
-  "id": "456",
+  "id": "458",
   "sku": "",
   "store_id": "1234",
   "user_id": "ADFR345",
   "additional_info": [],
   "created_at": "2017-08-10T05:46:08.565384Z",
   "updated_at": "2017-08-10T05:46:08.565505Z",
-  "name": "Cup Board",
+  "name": "Dining Table",
   "description": "No description",
   "status": "pending",
   "featured": false,
@@ -27,7 +27,7 @@
       "stock": 15,
       "images": [
         {
-          "image": "https://backenddev.shophobe.com/media/product_images/Urban_Republic_Satin_Jacket.jpg",
+          "image": "https://shophobe-production-media.s3.amazonaws.com/product_images/Minimalist-Wardrobe-Essentials-Women-Leather-Jacket_5BcfvcL.png",
           "order": null,
           "alt_tag": "urban_republic_satin_jacket.jpg_0"
         }

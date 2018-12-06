@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shophobe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">SHOPHOBE</h1>
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <aside class="menu">
+          <p class="menu-label">Variance</p>
+          <ul class="menu-list">
+            <li>
+              Material
+              <ul>
+                <li><a href="/products/variance/wood">Wood (2)</a></li>
+              </ul>
+            </li>
+            <li>
+              Color
+              <ul>
+                <li><a>Blue (1)</a></li>
+              </ul>
+            </li>
+          </ul>
+          <p class="menu-label">Category</p>
+          <ul class="menu-list">
+            <li><a href="/products/category/home">Home(2)</a></li>
+            <li><a>Home Furnishing(2)</a></li>
+            <li><a>Table(1)</a></li>
+            <li><a>Furniture(1)</a></li>
+            <li><a>Saree(1)</a></li>
+          </ul>
+        </aside>
+      </div>
+      <div class="column">
+        <p class="title is-6 has-text-right">{{len .}} results found</p>
+        <div class="columns">
+          {{ range $Product := .}}
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="{{.Image}}" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">{{$Product.Name}}</p>
+                  <p>Weight: {{.Weight}}</p>
+                  <p>Price: {{.Price}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
